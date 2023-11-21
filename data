@@ -4,7 +4,7 @@
 <p id="demo">Fetch a file to change this text.</p>
 <script>
 
-let file = "fetch_info.txt"
+let file = "https://www.w3schools.com/js/fetch_info.txt"
 
 fetch (file)
 .then(x => x.text())
