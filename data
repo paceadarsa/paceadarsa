@@ -1,15 +1,1 @@
-<!DOCTYPE html>
-<html>
-<body>
-<p id="demo">Fetch a file to change this text.</p>
-<script>
 
-let file = "<h1>Fetch API</h1><p>The Fetch API interface allows web browser to make HTTP requests to web servers.<p><p>If you use the XMLHttpRequest Object, Fetch can do the same in a simpler way.</p>"
-
-fetch (file)
-.then(x => x.text())
-.then(y => document.getElementById("demo").innerHTML = y);
-
-</script>
-</body>
-</html>
